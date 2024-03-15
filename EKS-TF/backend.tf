@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "ajay-mrcloudbook777" # Replace with your actual S3 bucket name
+    bucket = "jagas3awsbucket" 
     key    = "EKS/terraform.tfstate"
-    region = "ap-south-1"
+    region = "Asia Pacific(Mumbai) ap-south-1"
   }
 }
